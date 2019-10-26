@@ -71,9 +71,8 @@ public class KmeansClient {
      */
     private void initDataSet() {
         dataSet = new ArrayList<double[]>();
-        double dataSetArray[][] = {{8, 2}, {3, 4}, {2, 5},
-                {4, 2}, {7, 3}, {6, 2}, {4, 7}, {6, 3}, {5, 3},
-                {6, 3}, {6, 9}, {1, 6}, {3, 9}, {4, 1}, {8, 6}};
+        double dataSetArray[][] = {{1, 1}, {2, 1}, {1, 2},
+                {2, 2}, {4, 3}, {5, 3}, {4, 4}, {5, 4}};
         for (int i = 0; i < dataSetArray.length; i++) {
             dataSet.add(dataSetArray[i]);
         }
