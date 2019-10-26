@@ -28,9 +28,8 @@ public class main {
         System.out.println("K-means聚类");
         KmeansClient test = new KmeansClient(5);
         ArrayList<double[]> a = new ArrayList<double[]>();
-        double aa[][] = {{0.2, 0.1, 0.9}, {0.45, 0.83, 0.69}, {2.43, 2.96, 5.39},
-                {0.14, 0.24, 0.25}, {7, 3, 3}, {12.36, 18.39, 0.25},
-                {6, 3, 3}, {6, 9, 6}, {17.92, 64.5, 32.1}};
+        double aa[][] = {{1, 1}, {2, 1}, {1, 2},
+                {2, 2}, {4, 3}, {5, 3}, {4, 4}, {5, 4}};
         for (int i = 0; i < aa.length; i++) {
             a.add(aa[i]);
         }
